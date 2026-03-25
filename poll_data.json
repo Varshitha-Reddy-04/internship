@@ -1,0 +1,77 @@
+{
+    "polls": [
+        {
+            "id": 1,
+            "question": "Sun rises in which direction?",
+            "options": [
+                "East",
+                "West",
+                "North",
+                "South"
+            ],
+            "votes": {
+                "East": 3,
+                "West": 0,
+                "North": 1,
+                "South": 0
+            },
+            "collect_names": true,
+            "voters": [
+                {
+                    "name": "Surya",
+                    "choice": "East"
+                },
+                {
+                    "name": "vishnusai",
+                    "choice": "East"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "is this summer?",
+            "options": [
+                "yes",
+                "no",
+                "may be"
+            ],
+            "votes": {
+                "yes": 0,
+                "no": 0,
+                "may be": 0
+            },
+            "collect_names": true,
+            "voters": []
+        },
+        {
+            "id": 3,
+            "question": "is this summer?",
+            "options": [
+                "yes",
+                "no",
+                "maybe"
+            ],
+            "votes": {
+                "yes": 1,
+                "no": 0,
+                "maybe": 0
+            }
+        },
+        {
+            "id": 4,
+            "question": "how is the weather",
+            "options": [
+                "cool",
+                "warm",
+                "hot"
+            ],
+            "votes": {
+                "cool": 0,
+                "warm": 1,
+                "hot": 0
+            }
+        }
+    ],
+    "active_poll_id": 2,
+    "active_poll": 4
+}
